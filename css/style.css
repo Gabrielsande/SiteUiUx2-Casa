@@ -177,6 +177,9 @@ main {
     align-items: center;
 }
 
+table, th, td{
+    border: 1px solid black;
+}
 /*INICIALIZAÇÃOI DO FerraTec.html*/
 .sectionFerraTec {
     border: 2px solid black;
@@ -241,24 +244,47 @@ main {
 }
 
 /*INICIALIZAÇÃO DO  contato.html*/
-.contato1 {
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 10px;
-    width: 1100px;
-    height: 600px;
 
-}
-article{
-    border: 5px solid black;
-    justify-content: space-between;
-}
-.sandes img{
-    width: 300px;
-    height: 300px;    
+.carousel {
     display: flex;
+    border: 4px solid black;
+    padding: 20px;
+    gap: 20px;
+    scroll-snap-type: x mandatory;
+    justify-content: center;
 }
-.section
+
+.player-card {
+    flex: 0 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    scroll-snap-align: center;
+    text-align: center;
+    width: 200px;
+    
+}
+
+.player-card img {
+    width: 100%;
+    height: 200px;
+}
+
+
+.name {
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+.position {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 5px 0;
+    margin: 0;
+    box-shadow: black;
+}
+
 /*footer*/
 footer {
     background-color: blue;
