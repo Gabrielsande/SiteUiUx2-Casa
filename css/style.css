@@ -55,7 +55,7 @@ ul li a:hover {
 
 body {
     background-color: rgba(128, 128, 128, 0.371);
-    
+
 }
 
 main {
@@ -159,28 +159,50 @@ main {
 }
 
 /*INICIALIZAÇÃO DO difereca.html*/
-.sectionDiferencas {
-    border: 2px solid black;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: rgb(0, 47, 255);
-    font-size: large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
-}
 
-.imgDiferenca img {
-    width: 1300px;
-    height: 700px;
-    border-radius: 10px;
+.sectionDiferencaUiUx {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
 }
 
-table, th, td{
-    border: 1px solid black;
+.articleUi23 {
+    flex-direction: column;
+    flex-wrap: wrap;
+    
 }
+
+.diferencaUi {
+    width: 500px;
+    height: 300px;
+    border: 2px solid rgb(0, 4, 255);
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: rgb(0, 110, 255);
+    padding: 20px;
+    text-align: justify;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.diferencaUx {
+    width: 500px;
+    height: 300px;
+    border: 2px solid rgb(255, 72, 0);
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: rgba(252, 88, 13, 0.959);
+    padding: 20px;
+    text-align: justify;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 /*INICIALIZAÇÃOI DO FerraTec.html*/
 .sectionFerraTec {
     border: 2px solid black;
@@ -222,7 +244,7 @@ table, th, td{
 }
 
 /*INICIALIZAÇÃO DE usoAplicacao.html*/
-.usoAplicacao {
+.usoAplicacaoUi{
     border: 2px solid black;
     border-radius: 10px;
     padding: 10px;
@@ -230,8 +252,20 @@ table, th, td{
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
+    width: 600px;
 }
+.usoAplicacaoUx{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:rgba(252, 88, 13, 0.959);
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    width: 600px;
+    
 
+}
 /*INICIALIZAÇÃO DO principiosDesign.html*/
 
 .principiosDesign {
@@ -252,7 +286,7 @@ table, th, td{
     background: #bdbaba;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-     font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -266,36 +300,39 @@ table, th, td{
 .carousel-container {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    
+
 }
-.player .imgJoca{
+
+.player .imgJoca {
     width: 100%;
     max-width: 200px;
     border-radius: 10px;
 }
+
 .player {
     min-width: 100%;
     box-sizing: border-box;
     text-align: center;
     padding: 20px;
-    
+
 }
 
 .player img {
     width: 100%;
     max-width: 220px;
     border-radius: 10px;
-    
+
 }
 
-.player-info img{
+.player-info img {
     width: 50px;
     height: 50px;
-    border-radius: 160px; 
+    border-radius: 160px;
 }
+
 .player-info {
     margin-top: 10px;
-    
+
 }
 
 .player-info .number {
@@ -334,13 +371,15 @@ table, th, td{
 .carousel-button.next {
     right: 10px;
 }
-.imgInsta{
+
+.imgInsta {
     width: 60px;
     height: 10px;
     padding: 5px;
-    border-radius: 160px; 
+    border-radius: 160px;
 }
-.insta{
+
+.insta {
     justify-content: center;
     display: flex;
     align-items: center;
