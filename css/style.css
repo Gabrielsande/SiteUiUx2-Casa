@@ -14,6 +14,8 @@
     gap: 50px;
     color: white;
     justify-content: space-around;
+    position: fixed;
+    top: 0;
 }
 
 .divheader1 img {
@@ -51,6 +53,7 @@ ul li a:hover {
     color: rgb(0, 13, 255);
     background-color: white;
     transition: 0.5s;
+    
 }
 
 body {
@@ -82,6 +85,7 @@ main {
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
+    text-align: justify;
 }
 
 .section0 {
@@ -89,6 +93,7 @@ main {
     justify-content: space-between;
     padding: 10px;
     gap: 200px;
+    margin-top: 56px;
 }
 
 .Ui {
