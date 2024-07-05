@@ -74,7 +74,6 @@ main {
 }
 
 .sectionHome {
-    border: 2px solid black;
     border-radius: 10px;
     padding: 10px;
     background-color: rgb(109, 113, 129);
@@ -82,6 +81,7 @@ main {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     text-align: justify;
+    width: 1000px;
 }
 
 .pUi:hover {
@@ -109,7 +109,7 @@ main {
 .Ui {
     width: 400px;
     height: 400px;
-    border: 2px solid rgb(0, 4, 255);
+   
     border-radius: 50px;
     justify-content: space-between;
     background-color: rgb(0, 110, 255);
@@ -139,7 +139,6 @@ main {
 .Ux {
     width: 400px;
     height: 400px;
-    border: 2px solid rgb(255, 72, 0);
     border-radius: 50px;
     justify-content: space-between;
     background-color: rgba(252, 88, 13, 0.959);
@@ -192,7 +191,6 @@ main {
 .diferencaUi {
     width: 500px;
     height: 300px;
-    border: 2px solid rgb(0, 4, 255);
     border-radius: 10px;
     justify-content: space-between;
     background-color: rgb(0, 110, 255);
@@ -207,7 +205,6 @@ main {
 .diferencaUx {
     width: 500px;
     height: 300px;
-    border: 2px solid rgb(255, 72, 0);
     border-radius: 10px;
     justify-content: space-between;
     background-color: rgba(252, 88, 13, 0.959);
@@ -221,7 +218,6 @@ main {
 
 /*INICIALIZAÇÃOI DO FerraTec.html*/
 .sectionFerraTec {
-    border: 2px solid black;
     border-radius: 10px;
     padding: 10px;
     background-color: rgb(0, 47, 255);
@@ -240,7 +236,6 @@ main {
 }
 
 .sectionTecUi {
-    border: 2px solid black;
     border-radius: 10px;
     padding: 10px;
     background-color: rgb(0, 47, 255);
@@ -250,7 +245,6 @@ main {
 }
 
 .sectionTecUx {
-    border: 2px solid black;
     border-radius: 10px;
     padding: 10px;
     background-color: rgba(252, 88, 13, 0.959);
@@ -276,7 +270,6 @@ main {
     align-items: center
 }
 .usoAplicacaoUi {
-    border: 2px solid black;
     border-radius: 10px;
     padding: 10px;
     background-color: rgba(252, 88, 13, 0.959);
@@ -288,7 +281,6 @@ main {
 }
 
 .usoAplicacaoUx {
-    border: 2px solid black;
     border-radius: 10px;
     padding: 10px;
     background-color: rgb(0, 47, 255);
@@ -302,7 +294,6 @@ main {
 /*INICIALIZAÇÃO DO principiosDesign.html*/
 
 .principiosDesign {
-    border: 2px solid black;
     border-radius: 10px;
     padding: 10px;
     background-color: rgb(0, 47, 255);
