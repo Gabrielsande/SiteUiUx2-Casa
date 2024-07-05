@@ -14,7 +14,6 @@
     gap: 50px;
     color: white;
     justify-content: space-around;
-
 }
 
 .divheader1 img {
@@ -51,12 +50,11 @@ ul li a:hover {
     color: rgb(0, 13, 255);
     background-color: white;
     transition: 0.5s;
-    
+
 }
 
 body {
     background-color: rgba(128, 128, 128, 0.371);
-
 }
 
 main {
@@ -79,11 +77,25 @@ main {
     border: 2px solid black;
     border-radius: 10px;
     padding: 10px;
-    background-color: rgb(0, 47, 255);
+    background-color: rgb(109, 113, 129);
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
     text-align: justify;
+}
+
+.pUi:hover {
+    background-color: rgb(0, 110, 255);
+    transition: 0.5s;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.pUx:hover {
+    background-color: rgba(252, 88, 13, 0.959);
+    transition: 0.5s;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .section0 {
@@ -248,11 +260,20 @@ main {
 }
 
 /*INICIALIZAÇÃO DE usoAplicacao.html*/
-.usoAplicacaoUiUx{
+.usoAplicacaoUiUx {
     display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    gap: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.uxeui img {
+    width: 1000px;
+    height: 600px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center
 }
 .usoAplicacaoUi {
     border: 2px solid black;
@@ -384,20 +405,20 @@ main {
 .carousel-button.next {
     right: 10px;
 }
-
-.imgInsta {
-    width: 60px;
-    height: 10px;
-    padding: 5px;
-    border-radius: 160px;
-}
-
 .insta {
     justify-content: center;
     display: flex;
     align-items: center;
+    gap: 1.2rem;
+    padding: 10px;
+    
 }
-
+h1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+}
 /*footer*/
 footer {
     background-color: blue;
