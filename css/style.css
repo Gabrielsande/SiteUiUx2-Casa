@@ -14,6 +14,8 @@
     gap: 50px;
     color: white;
     justify-content: space-around;
+    position: fixed;
+    top: 0;
 }
 
 .divheader1 img {
@@ -105,11 +107,9 @@ main {
     gap: 200px;
     margin-top: 56px;
 }
-
 .Ui {
     width: 400px;
-    height: 400px;
-   
+    height: 400px;  
     border-radius: 50px;
     justify-content: space-between;
     background-color: rgb(0, 110, 255);
@@ -185,26 +185,49 @@ main {
 .articleUi23 {
     flex-direction: column;
     flex-wrap: wrap;
-
 }
 
 .diferencaUi {
     width: 500px;
-    height: 300px;
+    height: 200px;
     border-radius: 10px;
-    justify-content: space-between;
+    justify-content:center;
+    align-items: center;
     background-color: rgb(0, 110, 255);
-    padding: 20px;
+    padding: 25px;
     text-align: justify;
     color: white;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-align: justify;
+}
+.diferencaUi h4{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.diferencaUi:hover{
+    width: 550px;
+    height: 220px;
+    border-radius: 10px;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(0, 110, 255);
+    padding: 25px;
+    text-align: justify;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+    transition: 0.5s;
+
 }
 
 .diferencaUx {
     width: 500px;
-    height: 300px;
+    height: 200px;
     border-radius: 10px;
     justify-content: space-between;
     background-color: rgba(252, 88, 13, 0.959);
@@ -215,12 +238,30 @@ main {
     font-weight: 400;
     font-style: normal;
 }
-
+.diferencaUx h4{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.diferencaUx:hover{
+    width: 550px;
+    height: 220px;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: rgba(252, 88, 13, 0.959);
+    padding: 20px;
+    text-align: justify;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: 0.5s;
+}
 /*INICIALIZAÇÃOI DO FerraTec.html*/
 .sectionFerraTec {
     border-radius: 10px;
     padding: 10px;
-    background-color: rgb(0, 47, 255);
+    background-color:rgb(109, 113, 129);
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
@@ -261,6 +302,15 @@ main {
     justify-content: center;
     gap: 50px;
 }
+.usoAplicacao2{
+    border-radius: 10px;
+    padding: 10px;
+    background-color:rgb(109, 113, 129);
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    width: 1200px;
+}
 .uxeui img {
     width: 1000px;
     height: 600px;
@@ -276,7 +326,7 @@ main {
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
-    width: 600px;
+    width: 1200px;
     display: flex;
 }
 
@@ -287,21 +337,48 @@ main {
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
-    width: 600px;
+    width: 1200px;
     display: flex;
 }
 
 /*INICIALIZAÇÃO DO principiosDesign.html*/
 
-.principiosDesign {
-    border-radius: 10px;
+.principiosDesign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.prinui {
+    border-radius: 30px;
     padding: 10px;
-    background-color: rgb(0, 47, 255);
+    background-color:  rgb(0, 110, 255);
     font-size: large;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: white;
+    width: 1000px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-
+.prinux {
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgba(252, 88, 13, 0.959) ;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    width: 1000px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 /*INICIALIZAÇÃO DO  contato.html*/
 
 
